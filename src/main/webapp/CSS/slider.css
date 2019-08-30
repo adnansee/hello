@@ -1,0 +1,20 @@
+.slider{
+    width: 100%;
+
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+
+color: azure;
+font-size: 42px;
+font-family: 'Abel', sans-serif;
+}
+.carousel-caption h1{
+    font-size: 20px;
+    color: azure;
+    font-family: 'Abel', sans-serif;
+}

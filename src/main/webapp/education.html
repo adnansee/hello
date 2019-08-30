@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset='utf-8'>
+
+    <title>Eddy Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/style.css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="js\smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</head>
+
+<body>
+<!-- #region NAV BAR-->
+<section id="nav-bar">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="resources\petri-dish.png" style="widows: 100px;height:40px"
+                onclick="goBack()"></a>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+
+<!-- #region EDUCATION TIMELINE-->
+
+<section>
+
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">EDUCATION TIMELINE</h1>
+    </div>
+
+    <!-- #region INTEC JAVA EE-->
+    <ul class="timeline">
+        <li class="timeline">
+            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Java EE
+                    </h4>
+                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2018 - 2019 INTEC Brussel,
+                            Brussel
+                        </small></p>
+                </div>
+                <div class="timeline-body">
+                    <p>EE full-stack training lasting one year. The training includes Java Fundamentals, SQL,
+                        SPRING, and HYBERNATE, MAVEN. FRONT END HTML/CSS/JAVASCRIPT</p>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="http://www.intecbrussel.be/">Visit website</a></li>
+                            <li><a href="http://www.intecbrussel.be/opleidingen/java-developer-1/">Program details</a>
+                            </li>
+                            <li><a href="http://www.intecbrussel.be/over-ons/">Check accreditations</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+
+        <!-- #region EPFC ANDROID-->
+        <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Java SE / Android Studio</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2017 - 2018 EPFC Brussel, Brussel
+                    </small></p>
+                <div class="timeline-body">
+                    <p>JAVA SE Fundamentals certification obtained after attendance and submission of project.
+                        Modules included Java SE including Java FX. </p>
+                    <p>Following the Java course I enrolled in the
+                        Android Studio App making module. Successfully cleared the module with top percentile</p>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                            <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            
+                            <li><a href="https://www.epfc.eu/">Visit website</a></li>
+                            <li><a
+                                    href="https://www.epfc.eu/formations/16-formations-informatiques/programmation/50-certification-java.html">Program
+                                    details</a></li>
+                                    <li><a href="https://www.epfc.eu/">Check accreditations</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <!-- #region MSC ANTWERP UNI-->
+        <li>
+            <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">MSc Applied Economic</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015 - 2016 Antwerp University,
+                        Antwerp
+                    </small></p>
+                <div class="timeline-body">
+                    <p>
+                        Modules: Advanced Econometrics, Economics Research Extensive use of statistical and
+                        econometric softwares.
+                    </p>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                            <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="https://www.uantwerpen.be/en/">Visit website</a></li>
+                            <li><a
+                                    href="https://www.uantwerpen.be/en/study/education-and-training/master-economic-policy/profile/">Program
+                                    details</a></li>
+                            <li><a
+                                    href="https://www.uantwerpen.be/en/about-uantwerp/faculties/faculty-of-business-and-economics/studying-and-education/accreditations-rankings/">Check
+                                    accreditations</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+       <!-- #region ANTWERP RESEARCH-->
+        <li>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Research Title</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015 - 2016 Antwerp University,
+                        Antwerp
+                    </small></p>
+                <div class="timeline-body">
+                    <p>Mastered use of STATA 14 / R / SQL and performed a number of numerical/statistical based
+                        research
+                        papers. Dissertation research paper title ‘Returns to Entrepreneurship’. </p>
+                </div>
+            </div>
+        </li>
+
+        <!-- #region ASTON UNI UK-->
+        <li>
+            <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">MSc Finance and Financial Regulations – Merit</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2008 - 2009 Aston Univeristy,
+                        Birmingham, UK
+                    </small></p>
+                <div class="timeline-body">
+                    <p>Aston Business School (AACSB and Equis accredited), Birmingham UK Major Modules:
+                        International Financial Regulations and Investment, Corporate Governance, International
+                        Business Law. Research conducted on exchange market trading activities.</p>
+                    <hr>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                            <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://www2.aston.ac.uk/">Visit website</a></li>
+
+                            <li><a href="https://www2.aston.ac.uk/study/courses/finance-msc">Program details</a></li>
+                            <li><a
+                                    href="https://www2.aston.ac.uk/study/postgraduate/taught-programmes/abs/rankings-and-accreditation/index">Check
+                                    accreditations</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!-- #region ASTON RESEARCH PAPER-->
+        <li>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Research Title</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2008 - 2009 Aston Univeristy,
+                        Birmingham, UK
+                    </small></p>
+                <div class="timeline-body">
+                    <p>
+                        Research conducted on exchange market trading activities.
+                        Research title: Short-Selling </p>
+                </div>
+            </div>
+        </li>
+
+        <!-- #region BSC UCL-->
+        <li class="timeline-inverted">
+            <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">BSc (hons) Economics and Finance</h4>
+                </div>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2005 - 2008 Univeristy College
+                        London External Program
+                    </small></p>
+                <div class="timeline-body">
+                    <p>
+                        University of London external programme
+                        Focused on Economics (normative and applied economics) Modules: Econometrics, Statistics,
+                        Corporate Finance, Monetary Economics, and Quantitative Finance. Studies complemented with
+                        an internship at an investment bank. </p>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                        <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://london.ac.uk/">Visit website</a></li>
+                        <li><a href="https://london.ac.uk/courses/economics-and-finance">Program details</a></li>
+                        <li><a href="https://www.ucl.ac.uk/nhfi/about/accreditation">Check accreditations</a></li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</section>
+
+</body>
+
+<!-- #FOOTER-->
+<section id="footer">
+    <div class="container text-center">
+        <p>Eddy Copyright 2019 <i class="fa fa-copyright"></i></p>
+    </div>
+</section>
+<!-- #FOOTER-->
+
+
+</html>
